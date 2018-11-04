@@ -6,4 +6,6 @@ The main challenge in fraud detection is the **extreme class imbalance** in the 
 
 Hyper-parameter tuning can considerably improve the performance of learning algorithms. XGBoost has many hyper-parameters which make it powerful and flexible, but also very difficult to tune due to the high-dimensional parameter space. Instead of the more traditional tuning methods (i.e. grid search and random search) that perform a brute force search through the parameter space, I use **Bayesian hyper-parameter optimization** (implemented in the hyperopt package) which has been shown to be more efficient than grid and random search (Bergstra, Yamins, and Cox 2013).
 
+The full python code can be found [here](https://github.com/MiladShahidi/xgboost-fraud-detection/blob/master/XGBoost_Fraud_Detection.py).
+
 Keywords: **XGBoost, Imbalanced/Cost-sensitive learning, Bayesian hyper-parameter tuning**
