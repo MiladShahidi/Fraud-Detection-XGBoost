@@ -1,6 +1,11 @@
 # Summary
 
+A full description of the project can be found [here](https://github.com/MiladShahidi/xgboost-fraud-detection/blob/master/XGBoost_Fraud_Detection.ipynb).
+
 In this project I use the **Extreme Gradient Boosting (XGBoost)** algorithm to detect fradulent credit card transactions in a real-world (anonymized) dataset of european credit card transactions. I evaluate the performance of the model on a held-out test set and compare its performance to a few other popular classification algorithms, namely, **Logistic Regression, Random Forests and Extra Trees Classifier** (Geurts, Ernst, and Wehenkel 2006), and **show that a well-tuned XGBoost classifier outperforms all of them**.
+
+<img src='images/PR.png' style="width:70%;height:70%;">
+<p style="text-align:center"> The precision-recall curve for all classifiers considered. XGBoost (solid black) dominates others almost everywhere and clearly outperforms them, especially at lower precisions/higher recalls.</p>
 
 The main challenge in fraud detection is the **extreme class imbalance** in the data which makes it difficult for many classification algorithms to effectively separate the two classes. **Only 0.172% of transactions are labeled as fradulent** in this dataset. I address the class imbalance by reweighting the data before training XGBoost (and by SMOTE oversamping in the case of Logistic regression).
 
