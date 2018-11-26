@@ -1,4 +1,5 @@
-# Summary
+# Detecting Credit Card Fraud using XGBoost and Bayesian Hyper-Parameter Optimization
+## Summary
 
 A full description of the project can be found [here](https://github.com/MiladShahidi/xgboost-fraud-detection/blob/master/XGBoost_Fraud_Detection.ipynb).
 
